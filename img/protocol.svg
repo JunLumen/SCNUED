@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
+  <title id="title">SCNUED passive audiovisual emotion induction protocol</title>
+  <desc id="desc">A protocol diagram showing preparation, six emotion clips, rest intervals, and two BDF sessions.</desc>
+  <rect width="1000" height="330" fill="#f7f9fb"/>
+  <text x="50" y="55" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#12355b">SCNUED Acquisition Flow</text>
+  <text x="50" y="88" font-family="Arial, sans-serif" font-size="16" fill="#4c5b68">Raw five-channel EEG recorded during passive audiovisual emotion induction</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#17324d">
+    <rect x="50" y="135" width="150" height="78" rx="8" fill="#ffffff" stroke="#d5dee8"/>
+    <text x="74" y="168" font-weight="700">Preparation</text>
+    <text x="74" y="193" fill="#596b7a">gel + signal QC</text>
+    <path d="M210 174 H260" stroke="#7b8ea3" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="270" y="135" width="160" height="78" rx="8" fill="#e8f2ff" stroke="#8bb8e8"/>
+    <text x="304" y="168" font-weight="700">BDF Session</text>
+    <text x="310" y="193" fill="#335b80">ses-01</text>
+    <path d="M440 174 H490" stroke="#7b8ea3" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="500" y="135" width="230" height="78" rx="8" fill="#fffaf0" stroke="#e3bf6f"/>
+    <text x="535" y="168" font-weight="700">6 emotion clips</text>
+    <text x="530" y="193" fill="#80631d">positive / neutral / negative</text>
+    <path d="M740 174 H790" stroke="#7b8ea3" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="800" y="135" width="150" height="78" rx="8" fill="#eaf7ef" stroke="#91c89f"/>
+    <text x="827" y="168" font-weight="700">BDF Session</text>
+    <text x="846" y="193" fill="#35633d">ses-02</text>
+    <text x="50" y="268" font-size="15" fill="#4c5b68">Per plan, the public release keeps the two local BDF recordings as ses-01 and ses-02. Events are described in documentation only.</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#7b8ea3"/>
+    </marker>
+  </defs>
+</svg>

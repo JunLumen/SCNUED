@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-labelledby="title desc">
+  <title id="title">SCNUED five-channel EEG layout</title>
+  <desc id="desc">A head diagram marking Fp2, O1, O2, C3, and C4.</desc>
+  <rect width="760" height="760" fill="#ffffff"/>
+  <circle cx="380" cy="390" r="285" fill="#f9fbfd" stroke="#22384d" stroke-width="3"/>
+  <path d="M350 112 L380 55 L410 112" fill="#f9fbfd" stroke="#22384d" stroke-width="3"/>
+  <path d="M95 365 C50 395 50 450 95 480" fill="none" stroke="#22384d" stroke-width="3"/>
+  <path d="M665 365 C710 395 710 450 665 480" fill="none" stroke="#22384d" stroke-width="3"/>
+  <line x1="380" y1="120" x2="380" y2="655" stroke="#d2dce6" stroke-width="2"/>
+  <line x1="135" y1="390" x2="625" y2="390" stroke="#d2dce6" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+    <circle cx="470" cy="185" r="38" fill="#0d6fb8"/><text x="470" y="194" fill="#fff">Fp2</text>
+    <circle cx="250" cy="390" r="38" fill="#0d6fb8"/><text x="250" y="399" fill="#fff">C3</text>
+    <circle cx="510" cy="390" r="38" fill="#0d6fb8"/><text x="510" y="399" fill="#fff">C4</text>
+    <circle cx="320" cy="610" r="38" fill="#0d6fb8"/><text x="320" y="619" fill="#fff">O1</text>
+    <circle cx="440" cy="610" r="38" fill="#0d6fb8"/><text x="440" y="619" fill="#fff">O2</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#607080">
+    <text x="380" y="175">Frontal</text>
+    <text x="380" y="695">Occipital</text>
+    <text x="145" y="430">Left</text>
+    <text x="615" y="430">Right</text>
+  </g>
+  <text x="380" y="735" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#405263">SCNUED channels: Fp2, O1, O2, C3, C4</text>
+</svg>
