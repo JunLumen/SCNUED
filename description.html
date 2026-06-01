@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="title" content="SCNUED Dataset Description">
+          <meta name="keywords" content="SCNUED, EEG, emotion recognition, dataset, BDF, South China Normal University">
+          <meta name="author" content="Brain-Computer Interface and Hybrid Intelligence Laboratory, South China Normal University">
+          <meta name="description" content="SCNUED is a five-channel raw EEG emotion dataset from South China Normal University.">
+          <link rel="stylesheet" href="css/style.css">
+          <title>SCNUED Dataset Description</title>
+        </head>
+        <body>
+          <header>
+            <div class="wrap topbar">
+              <div class="brand">
+                <img class="school-logo" src="img/scnu-logo.png" alt="South China Normal University logo">
+                <div>
+                  <h1>SCNUED</h1>
+                  <p class="subtitle">South China Normal University Emotional EEG Dataset</p>
+                </div>
+              </div>
+
+      <nav aria-label="Main navigation">
+        <a class="" href="index.html">Home</a>
+        <a class="active" href="description.html">Dataset Description</a>
+        <a class="" href="download.html">Download</a>
+      </nav>
+
+            </div>
+          </header>
+          <main class="wrap">
+
+      <h2>Dataset Description</h2>
+      <div class="grid">
+        <div>
+          <p>SCNUED records low-channel wearable EEG during passive audiovisual emotion induction. EEG signals were acquired with a five-channel portable EEG headband after conductive gel application and signal-quality checks.</p>
+          <table>
+            <tr><th>Institution</th><td>South China Normal University</td></tr>
+            <tr><th>Laboratory</th><td>Brain-Computer Interface and Hybrid Intelligence Laboratory, South China Normal University<br>华南师范大学脑机接口与混合智能实验室</td></tr>
+            <tr><th>Channels</th><td>Fp2, O1, O2, C3, C4</td></tr>
+            <tr><th>Sampling frequency</th><td>250 Hz for EEG channels</td></tr>
+            <tr><th>Unit</th><td>uV</td></tr>
+            <tr><th>Format</th><td>De-identified raw BDF</td></tr>
+          </table>
+        </div>
+        <img class="figure" src="img/electrode_layout.svg" alt="SCNUED five-channel EEG layout">
+      </div>
+      <section>
+        <h2>Data Acquisition Flow</h2>
+        <img class="figure protocol-image" src="img/data_acquisition_flow.png" alt="SCNUED data acquisition flowchart">
+        <p><a href="img/data_acquisition_flow.pdf" download>Download source PDF</a></p>
+      </section>
+      <section>
+        <h2>Stimulus Clips</h2>
+        <p>The source clips are described for reproducibility but are not redistributed with the dataset.</p>
+        <table>
+          <thead><tr><th>No.</th><th>Emotion</th><th>Source clip</th></tr></thead>
+          <tbody><tr><td>1</td><td>Positive</td><td>Flirting Scholar</td></tr>
+<tr><td>2</td><td>Positive</td><td>Just Another Pandora&#x27;s Box</td></tr>
+<tr><td>3</td><td>Neutral</td><td>Aerial China, Episode 1</td></tr>
+<tr><td>4</td><td>Neutral</td><td>Aerial China, Episode 2</td></tr>
+<tr><td>5</td><td>Negative</td><td>Back to 1942</td></tr>
+<tr><td>6</td><td>Negative</td><td>Tangshan Earthquake</td></tr></tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Data Organization</h2>
+        <pre><code>SCNUED-v1.0/
+  SCNUED-v1.0_manifest.tsv
+  sub01/sub01_session1.bdf
+  sub01/sub01_session2.bdf
+  ...
+  sub15/sub15_session1.bdf
+  sub15/sub15_session2.bdf</code></pre>
+        <p>No event files are released in v1.0 because the BDF annotation channels do not contain validated nonnumeric event labels.</p>
+      </section>
+      <section>
+        <h2>Quality Notes</h2>
+        <div class="note">Release BDF headers are de-identified by rewriting patient, recording, date, and time fields. EEG data records remain unchanged, and the manifest confirms identical post-header data hashes.</div>
+        <ul>
+          <li>All released BDF files contain the five EEG channels <code>Fp2</code>, <code>O1</code>, <code>O2</code>, <code>C3</code>, and <code>C4</code> at 250 Hz.</li>
+          <li>Source filenames are consistent with their source folders in this release.</li>
+          <li>Participant-level age and sex tables are not released in v1.0; only aggregate demographics are provided.</li>
+        </ul>
+      </section>
+
+          </main>
+          <footer class="wrap">
+            <p>Copyright © 2026 South China Normal University. Dataset access is governed by the SCNUED Academic Non-commercial Data Use Agreement.</p>
+            <p>Acknowledgement: equipment support was provided by South China Brain Control (Guangdong) Intelligent Technology Co., Ltd. (华南脑控（广东）智能科技有限公司).</p>
+          </footer>
+        </body>
+        </html>

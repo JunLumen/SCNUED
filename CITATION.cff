@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "SCNUED: South China Normal University Emotional EEG Dataset"
+version: "1.0"
+date-released: "2026-06-01"
+message: "Please cite the associated SCNUED paper and acknowledge SCNUED when using this dataset. Replace this placeholder with the final bibliographic entry and DOI when available."
+type: dataset
+authors:
+  - name: "Brain-Computer Interface and Hybrid Intelligence Laboratory, South China Normal University"
+    affiliation: "South China Normal University"
+contact:
+  - email: "chenjiajun@m.scnu.edu.cn"
+keywords:
+  - EEG
+  - emotion recognition
+  - affective computing
+  - BDF
+  - raw data
+license: "other"

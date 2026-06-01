@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="title" content="SCNUED: Emotional EEG Dataset" />
+    <meta
+      name="keywords"
+      content="SCNUED, EEG, emotion recognition, dataset, BDF, South China Normal University"
+    />
+    <meta
+      name="author"
+      content="Brain-Computer Interface and Hybrid Intelligence Laboratory, South China Normal University"
+    />
+    <meta
+      name="description"
+      content="SCNUED is a five-channel raw EEG emotion dataset from South China Normal University."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SCNUED: Emotional EEG Dataset</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrap topbar">
+        <div class="brand">
+          <img
+            class="school-logo"
+            src="img/scnu-logo.png"
+            alt="South China Normal University logo"
+          />
+          <div>
+            <h1>SCNUED</h1>
+            <p class="subtitle">
+              South China Normal University Emotional EEG Dataset
+            </p>
+          </div>
+        </div>
+
+        <nav aria-label="Main navigation">
+          <a class="active" href="index.html">Home</a>
+          <a class="" href="description.html">Dataset Description</a>
+          <a class="" href="download.html">Download</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <div class="hero">
+        <div>
+          <p class="lede">
+            SCNUED is a raw, five-channel EEG dataset for emotion recognition
+            research collected by the Brain-Computer Interface and Hybrid
+            Intelligence Laboratory, South China Normal University
+            (华南师范大学脑机接口与混合智能实验室).
+          </p>
+          <p>
+            The v1.0 release contains de-identified raw BDF recordings only.
+            Preprocessed data, differential entropy features, model outputs, and
+            source videos are not redistributed.
+          </p>
+          <div class="button-row">
+            <a class="button" href="download.html">Request Access</a>
+            <a class="button secondary" href="description.html"
+              >View Dataset Details</a
+            >
+          </div>
+        </div>
+        <img
+          class="figure protocol-image"
+          src="img/data_acquisition_flow.png"
+          alt="SCNUED data acquisition flowchart"
+        />
+      </div>
+      <div class="stats" aria-label="Dataset statistics">
+        <div class="stat">
+          <strong>15</strong><span>anonymous participants</span>
+        </div>
+        <div class="stat"><strong>30</strong><span>raw BDF files</span></div>
+        <div class="stat"><strong>5</strong><span>EEG channels</span></div>
+        <div class="stat">
+          <strong>250 Hz</strong><span>EEG sampling frequency</span>
+        </div>
+      </div>
+      <section>
+        <h2>Dataset Scope</h2>
+        <p>
+          SCNUED was collected from 15 healthy student volunteers, including 8
+          males and 7 females aged 18-21 years. All participants volunteered and
+          provided written informed consent before data collection. Each
+          participant contributed approximately 10 minutes of effective EEG
+          recording.
+        </p>
+        <p>
+          SCNUED v1.0 is distributed as a simple raw EEG package with one folder
+          per participant and two BDF sessions per participant. The release
+          includes 30 de-identified raw BDF files totaling 106.78 MB before
+          compression; per-file recording durations range from 293 to 768
+          seconds.
+        </p>
+        <p>
+          Raw data access is application-based. Public repository materials
+          include documentation, metadata examples, the access application, and
+          the academic non-commercial data use agreement.
+        </p>
+      </section>
+      <section>
+        <h2>Citation</h2>
+        <p>
+          Please cite the associated SCNUED paper and acknowledge SCNUED when
+          using this dataset.
+        </p>
+      </section>
+    </main>
+    <footer class="wrap">
+      <p>
+        Copyright © 2026 South China Normal University. Dataset access is
+        governed by the SCNUED Academic Non-commercial Data Use Agreement.
+      </p>
+      <p>
+        Acknowledgement: equipment support was provided by South China Brain
+        Control (Guangdong) Intelligent Technology Co., Ltd.
+        (华南脑控（广东）智能科技有限公司).
+      </p>
+    </footer>
+  </body>
+</html>
