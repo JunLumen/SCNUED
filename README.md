@@ -2,7 +2,7 @@
 
 This repository documents SCNUED and provides the application materials. Raw BDF files are distributed only after approval.
 
-Project website: <https://zj19854737907.github.io/SCNUED/>
+Project website: <https://Rainlit-zj.github.io/SCNUED/>
 
 
 SCNUED v1.0 is a low-channel raw EEG dataset for emotion recognition research collected by the Brain-Computer Interface and Hybrid Intelligence Laboratory, South China Normal University (华南师范大学脑机接口与混合智能实验室). The public release contains 15 healthy student participants, 2 BDF recording sessions per participant, and 30 raw BDF files. The participants include 8 males and 7 females, aged 18-21 years. All participants volunteered and provided written informed consent before data collection. Each participant contributed approximately 10 minutes of effective EEG recording. No preprocessed EEG, differential entropy features, model outputs, or derived signals are included.
